@@ -1789,7 +1789,7 @@
 		// Scaling
 		forceFit: false,								// Force fits all slide images to slide, use data-force-fit for individual images
 		fullwidth: false,								// Full width: boolean
-		fullscreen: false,								// Fullscreen slider: boolean
+		fullscreen: true,								// Fullscreen slider: boolean
 		fsUseHeightOf: '',								// Whether in fullscreen mode the slider should use window height or parent height as reference. Useful when slider is used as background slider.
 		externalPadding: 0,								// External Padding: padding of wrapping container, use data-external-padding for individual sliders
 		scaleUnder: 1140,								// Width under which slider should scale if fullwidth is true							
@@ -1809,9 +1809,9 @@
 
 		//Video
 		useVideoAPI: true,								// Use YouTube/Vimeo/HTML5 APIs: boolean
-		autoPlay: true,									// Play if active slide: boolean
+		autoPlay: false,									// Play if active slide: boolean
 		replayOnEnd: true,								// On video end reply: boolean
-		respectRatio: true,								// Scale video based on video ratio: boolean
+		respectRatio: false,								// Scale video based on video ratio: boolean
 		muteBkgVideo: false,							// Whether background video should be muted
 
 		// Preload
