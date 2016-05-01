@@ -30,7 +30,7 @@ var sections = [
 		},
 		{	sentence: " all in or nothing",
 		},
-		{	sentence: " listening to Vance Joy on Spotify",
+		{	sentence: " listening to Trevino on Spotify",
 		},
 		{	sentence: " filling sketchbooks with ideas",
 		},
