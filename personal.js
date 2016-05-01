@@ -4,6 +4,8 @@
     GLOBALS 
 -------------------------*/
 var sections = [
+		{	sentence: " will unleash the power of banking",
+		},
 		{	sentence: " are your financial sandbox",
 		},
 		{	sentence: " is a playground for innovation",
