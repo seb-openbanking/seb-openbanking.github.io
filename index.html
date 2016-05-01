@@ -1,370 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8" />
-	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0" name="viewport">
-	<meta name="twitter:widgets:theme" content="light">
-	<meta property="og:title" content="Open Banking" />
-	<meta property="og:type" content="website" />
-	<meta property="og:image" content="Your-Image-Url" />
-	<meta property="og:description" content="Disruption within." />
-	<title>Open Banking | Disruption within</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/theme-mountain-favicon.ico">
+	<head>
+		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="normalize.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+		<script src="personal.js"></script>
+		<!--<script src="particles.js"></script>-->
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<!-- METATAGS & SEO -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<meta charset="utf-8" />
+		<meta name=”description” content=”The world is changing | Open Banking”/>
+		<title>The world is changing | Open Banking</title>
+		<meta name=”keywords” content=”designer, freelance” />
+		<!-- SOCIAL META TAGS -->
+		<meta property="og:title" content="The world is changing | Open Banking" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://openbank.se" />
+		<meta property="og:image" content="https://openbank.se/img/Fb_Preview.png" />
+		<meta property="og:description" content="The introduction of open APIs to enable third party payment authorisationand to share a bank customer’s account details and transaction history offer an innovation opportunity for banks that want to become more customer-centric. Open APIs offer banks an opportunity to build an ecosystem of partnerships that will better serve them to deliver on their core mission: protecting nances and helping customers build wealth." /> 
+		<meta property="og:site_name" content="The world is changing | Open Banking" />
+		<meta property="fb:admins" content="#" />
 
-	<!-- Font -->
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CRoboto:300,400,500,700' rel='stylesheet' type='text/css'>
-	
-	<!-- Css -->
-	<link rel="stylesheet" href="css/core.min.css" />
-	<link rel="stylesheet" href="css/skin-design-agency.css" />
+		<meta name="twitter:card" content="summary_large_image">
+		<meta name="twitter:site" content="@borgatov">
+		<meta name="twitter:creator" content="@borgatov">
+		<meta name="twitter:title" content="The world is changing | Open Banking">
+		<meta name="twitter:description" content="The introduction of open APIs to enable third party payment authorisationand to share a bank customer’s account details and transaction history offer an innovation opportunity for banks that want to become more customer-centric. Open APIs offer banks an opportunity to build an ecosystem of partnerships that will better serve them to deliver on their core mission: protecting nances and helping customers build wealth.">
+		<meta name="twitter:image:src" content="https://openbank.se/img/Fb_Preview.png">
 
-	<!--[if lt IE 9]>
-    	<script type="text/javascript" src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-</head>
-<body class="home-page">
+		<meta itemprop="name" content="The world is changing | Open Banking">
+		<meta itemprop="description" content="The introduction of open APIs to enable third party payment authorisationand to share a bank customer’s account details and transaction history offer an innovation opportunity for banks that want to become more customer-centric. Open APIs offer banks an opportunity to build an ecosystem of partnerships that will better serve them to deliver on their core mission: protecting nances and helping customers build wealth.">
+		<meta itemprop="image" content="https://openbank.se/img/Fb_Preview.png">
 
 
-	<div class="wrapper">
-		<div class="wrapper-inner">
 
-			<!-- Header -->
-			<header class="header-1 header-1-static header header-fixed-on-mobile" data-bkg-threshold="100" data-sticky-threshold="window-height">
-				<div class="header-inner">
-					<div class="row nav-bar reveal-side-navigation">
-						<div class="column width-12 nav-bar-inner">
-							<div class="logo">
-								<div class="logo-inner">
-									<a href="index.html"><img src="images/design-agency/logo-dark.png" alt="Sartre Logo" /></a>
-									<a href="index.html"><img src="images/design-agency/logo.png" alt="Sartre Logo" /></a>
-								</div>
-							</div>
-							<div id="overlay-nav-show" class="navigation-show hide">
-								<a href="#">
-									<span class="icon-menu medium"></span>
-								</a>
-							</div>
-							<!-- Button
-							<a href="#" class="button scroll-link small pull-right no-margin-bottom">Button</a>
-							-->
-							<div class="dropdown pull-right">
-								<a class="button no-label-on-mobile small text-uppercase no-margin-bottom"><span>Clients</span><span class="icon-lock"></span></a>
-								<div class="dropdown-list custom-content">
-									<h5>Access Your Account</h5>
-									<div class="login-form-container">
-										<form class="login-form" action="#" method="post" novalidate>
-											<div class="row">
-												<div class="column width-12">
-													<div class="field-wrapper">
-														<input type="text" name="email" class="form-name form-element small" placeholder="E-mail" tabindex="1" required>
-													</div>
-												</div>
-												<div class="column width-12">
-													<div class="field-wrapper">
-														<input type="password" name="password" class="form-email form-element small" placeholder="Password" tabindex="2" required>
-													</div>
-												</div>
-												<div class="column width-6">
-													<input type="submit" value="Sign In" class="form-submit button small bkg-charcoal bkg-hover-pink color-white color-hover-white no-margin-bottom">
-												</div>
-												<div class="column width-6 right">
-													<a class="recuperate-password pt-10" href="">Password?</a>
-												</div>
-											</div>
-											<input type="text" name="honeypot" class="form-honeypot form-element">
-										</form>
-										<div class="form-response"></div>
-									</div>
-								</div>
-							</div>
-							
-										</ul>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>
-			</header>
-			<!-- Header End -->
 
-			<!-- Content -->
-			<div class="content clearfix reveal-side-navigation">
 
-				<!-- Intro Title Section 1 -->
-				<div class="section-block hero-1">
-					<div class="row">
-						<div class="column width-12">
-							<div class="title-container">
-								<div class="title-container-inner center left-on-mobile">
-									<p class="lead text-large font-alt-1 color-charcoal horizon" data-animate-in="opacity:0;transX:40px;duration:600ms;delay:0;easing:easeFastSlow;">
-										<strong>Open Banking</strong> bring ideas to life. Developing world class services - using private, regulated and open <strong>APIs</strong> only.
-									</p>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Intro Title Section 1 End -->
-
-				<!-- Portfolio Grid Section 5 -->
-				<div class="section-block portfolio-5 full-width no-margins no-padding">
-					<div class="row">
-						<div class="column width-12">
-							<div id="grid-1" class="row content-grid-4 masonry-grid fade-in-progressively" data-grid-ratio="1">
-								<div class="grid-item development large">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-7" data-caption="Banana Republik" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-7-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-7-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/assets/api10.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Lean Startup</span>
-															<span class="project-description">design/illstration</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item grid-sizer design">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-1" data-caption="Project La Promenade" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-1-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-1-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/assets/lean-startup.jpg" alt=""/>
-											<span class="overlay-info center">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Bikers Inc.</span>
-															<span class="project-description">identity/illustration</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item illutration">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-2" data-caption="I Travel - The Travel App" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-2-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-2-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/assets/pen-paper.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">I Travel</span>
-															<span class="project-description">iOS app</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item design illustration">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-3" data-caption="Miller Jackson Clothing" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-3-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-3-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/assets/watch-it.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Miller Jackson</span>
-															<span class="project-description">identity</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item illustration">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-4" data-caption="Rockabilly - Barber New York City" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-4-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-4-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/assets/running-lean.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Rockabilly</span>
-															<span class="project-description">identity</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item design">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-5" data-caption="Bstrd Clothing Company" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-5-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-5-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/design-agency/portfolio/grid/no-margins/project-5-square.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">BSTRDS</span>
-															<span class="project-description">illustration</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item development">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-6" data-caption="Weird I Am - Clothing" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/design-agency/portfolio/grid/no-margins/project-6-square.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Weird I Am</span>
-															<span class="project-description">identity</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item illustration">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-8" data-caption="Work Hard and Rock On" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/design-agency/portfolio/grid/no-margins/project-8-square.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Work Hard</span>
-															<span class="project-description">identity</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-								<div class="grid-item illustration">
-									<div class="thumbnail img-scale-in" data-hover-easing="easeInOut" data-hover-speed="500" data-hover-bkg-color="#ffffff" data-hover-bkg-opacity="1">
-										<a class="overlay-link lightbox-link" data-group="project-9" data-caption="Work Hard and Rock On" data-image-url="http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/project-9-square.jpg" href="images/design-agency/portfolio/grid/no-margins/project-9-square.jpg" data-lightbox-animation="slideInBottom">
-											<img src="images/design-agency/portfolio/grid/no-margins/project-9-square.jpg" alt=""/>
-											<span class="overlay-info">
-												<span>
-													<span>
-														<span class="left inline">
-															<span class="project-title">Work Hard</span>
-															<span class="project-description">identity</span>
-														</span>
-													</span>
-												</span>
-											</span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Portfolio Grid Section 5 End -->
-
-				<!-- Signup Modal End -->
-				<div id="signup-lightbox" class="signup-1 pt-70 pb-50 hide">
-					<div class="row">
-						<div class="column width-12 left">
-							<div class="signup-form-container">
-								<div class="row">
-									<div class="column width-5">
-										<h2 class="mb-30">Get The Latest From Sartre</h2>
-										<p>Stay cool and creative with our latest creative news. And don't worry, we do not spam!</p>
-									</div>
-									<div class="column width-6 offset-1">
-										<form class="signup-form" action="php/subscribe.php" method="post" novalidate>
-											<div class="row">
-												<div class="column width-12">
-													<div class="field-wrapper">
-														<input type="text" name="fname" class="form-name form-element large" placeholder="First Name" tabindex="1" required>
-													</div>
-												</div>
-												<div class="column width-12">
-													<div class="field-wrapper">
-														<input type="email" name="email" class="form-email form-element large" placeholder="Email address" tabindex="2" required>
-													</div>
-												</div>
-												<div class="column width-12">
-													<input type="submit" value="Signup" class="form-submit button text-uppercase bkg-charcoal bkg-hover-pink color-white color-hover-white">
-												</div>
-											</div>
-											<input type="text" name="honeypot" class="form-honeypot form-element">
-										</form>
-										<div class="form-response"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- Signup Modal End -->
-
+	</head>
+	<body class="noTransition">
+		<!--<div id="particles-js"></div>-->
+		<main>
+		<div class="container">
+			<div class="textContainer">
+				<div class="jstext"></div>
 			</div>
-			<!-- Content End -->
+			<div class="afterTyping">
+				<section id="about">
+					<div class="shortColumn info">
+						<h4>about Open Banking</h4>
+						<div>The introduction of open APIs to enable third party payment authorisationand to share a bank customer’s account details and transaction history offer an innovation opportunity for banks that want to become more customer-centric. Open APIs offer banks an opportunity to build an ecosystem of partnerships that will better serve them to deliver on their core mission: protecting nances and helping customers build wealth.</div>
+<br>					
+<div>The Second Payment Services Directive (PSD2) offers banks a way to avoid disruption and takeup the technology opportunities of today. Today, all industries are becoming technology industries, where a bulk of the services and products they offer must be supplied or managed digitally. This new industrial model is creating a platform economy, where everyone is empowered to create theirown digital value chains unique to their needs and experiences.</div>
+					</div>
+				</section>
 
-			<!-- Footer 1-->
-			<footer class="footer-1 footer reveal-side-navigation">
-				<div class="footer-top">
-					<div class="row">
-						<div class="column width-5">
-							<div class="widget">
-								<h4 class="widget-title">Open Banking</h4>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-							</div>
-						</div>
-						<div class="column width-3 offset-1">
-							<div class="widget">
-								<h4 class="widget-title"></h4>
-								
-							</div>
-						</div>
-						<div class="column width-3">
-							<div class="widget">
-								<h4 class="widget-title">We open soon</h4>
-								<address>
-									Somewhere<br>
-									in Stockholm
-								</address>
-								<p class="no-margin-bottom">
-									<a href="mailto:#">info@openbank.se</a>
-								</p>
-								<ul class="social-list list-horizontal no-margin-bottom">
-									<li><a class="no-margin-right" href="#">Twitter</a> |</li>
-									<li><a href="#">Facebook</a></li>
-								</ul>
-							</div>
+				<section id="contact">
+					<div class="shortColumn info">
+						<h4>get in touch</h4>
+						<a href="mailto:@gmail.com" class="loopCol email" data-hover="email">@openbank.se<span class="coloredHover">@openbank.se</span></a>
+						<div>We are physically located at the Epicenter Stockholm.<br>
+						Malmskillnadsgatan 32<br>
+						111 52 Stockholm<br>
+						Sweden
 						</div>
 					</div>
-				</div>
-				<div class="footer-bottom">
-					<div class="row">
-						<div class="column width-12">
-							<p class="copyright pull-left">
-								&copy; <b>Open Bank</b>. All Rights Reserved.
-							</p>
-						</div>
+				</section>
+
+				<section id="features">
+					<div class="shortColumn info">
+						<h4>selected features</h4>
+						<h3>We are hard at work and things will constantly change. However, the global banking industry do share the same needs;</h3>
 					</div>
-				</div>
-			</footer>
-			<!-- Footer 1 End -->
-
-		</div>
-	</div>
-
-	<!-- Js -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-	<script src="http://maps.googleapis.com/maps/api/js?v=3"></script>
-	<script src="js/timber.master.min.js"></script>
-</body>
+					<div>
+						<ul class="featuresList clearfix">
+						<div class="row clearfix">
+								<li >
+									<div class="featureTitle">/accounts</div>
+									<div class="featureSubtitle">List of accounts at that the user has access to.</div>
+								</li>
+								<li >
+									<div class="featureTitle">/payments</div>
+									<div class="featureSubtitle">Handle payments between accounts.</div>
+								</li>
+								<li >
+									<div class="featureTitle">/connect</div>
+									<div class="featureSubtitle">Enable clients to grant their own access.</div>
+								</li>
+							</div>
+							<div class="row clearfix">
+								<li >
+									<div class="featureTitle">/customers</div>
+									<div class="featureSubtitle">Get the KYC statuses for a customer over time.</div>
+								</li>
+								<li >
+									<div class="featureTitle">/cards</div>
+									<div class="featureSubtitle">Data about all the physical cards a user has been issued.</div>
+								</li>
+								<li >
+									<div class="featureTitle">/paystats</div>
+									<div class="featureSubtitle">Anonymized aggregated card purchase data.</div>
+								</li>
+							</div>
+						</ul>
+					</div>
+				</section>
+			</div>    
+			<div class="open">
+				<a href="https://openbank.se" target="_BLANK">&copy;2016 OPENBANK.SE</a>
+			</div>          
+		</div> <!--CLOSE CONTAINER -->
+	
+		</main>
+	</body>
 </html>
